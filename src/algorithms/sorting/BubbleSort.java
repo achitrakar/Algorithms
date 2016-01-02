@@ -1,4 +1,4 @@
-package chapter2.sorting;
+package algorithms.sorting;
 
 /**
  * <b>Bubble Sort</b> <br/>

@@ -1,4 +1,4 @@
-package chapter2.sorting;
+package algorithms.sorting;
 
 /**
  * <b>Merge Sort</b> <br/>
@@ -27,7 +27,8 @@ public class MergeSort {
 	private static int INFINITY = 999999999;
 
 	public static void main(String[] args) {
-		int data[] = { 3, 8, 7, 5, 2, 1, 9, 6 };
+		// int data[] = { 3, 8, 7, 5, 2, 1, 9, 6 };
+		int data[] = { 3, 41, 52, 26, 38, 57, 9, 49 };
 		System.out.println("Before Merge Sort...");
 		printArray(data);
 		mergeSort(data, 0, data.length - 1);
