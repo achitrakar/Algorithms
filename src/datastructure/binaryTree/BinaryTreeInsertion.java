@@ -2,13 +2,18 @@ package datastructure.binaryTree;
 
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.Stack;
 
 public class BinaryTreeInsertion extends TreeNode {
+	private int size = 0;
+
+	public int getSize() {
+		return size;
+	}
+
 	// Recursive insertion
 	public TreeNode insert(TreeNode root, int value) {
-
 		if (root == null) {
+			size++;
 			return new TreeNode(value);
 		}
 
